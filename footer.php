@@ -47,7 +47,7 @@
         Síguenos en:
       </p>
       <figure class="footer-social-img">
-        <img src="<?php echo get_template_directory_uri() . 'img/icons/social.svg' ?>" alt="redes sociales"/>
+        <img src="<?php echo get_template_directory_uri() . '/img/icons/social.svg' ?>" alt="redes sociales"/>
         <a id="facebook" href="https://www.facebook.com/miemma.mexico/?fref=ts" target="_blank"></a>
         <a href="https://twitter.com/miemma_" id="twitter" target="_blank"></a>
       </figure>
@@ -64,7 +64,7 @@
     <div class="col-xs-10 col-md-3-half col-sm-3 vertical-middle
                 footer-info footer-col">
       <p class="footer-info-phone center">
-        <img src="<?php echo get_template_directory_uri() . 'img/icons/phone.svg' ?> %}" height="27px"
+        <img src="<?php echo get_template_directory_uri() . '/img/icons/phone.svg' ?> %}" height="27px"
              style="margin-top: -5px;" alt="telefono">
         +52 1 55 4544 9350
       </p>
