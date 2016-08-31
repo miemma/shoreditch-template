@@ -215,7 +215,7 @@ textarea {
 }
 
 textarea {
-	resize: none;
+	resize: none: ;
 }
 
 button {
@@ -1010,6 +1010,10 @@ label {
 	width: 100%;
 }
 
+.site-content-wrapper .widget-area a:not(:hover) {
+	color: #575656;
+}
+
 .widget-footer-area {
 	padding-top: 1.5em;
 }
@@ -1660,6 +1664,10 @@ a:hover {
 .entry-content,
 .entry-summary {
 	margin: 0;
+}
+
+.entry-content {
+	color: #575656;
 }
 
 .page-content {
