@@ -1041,6 +1041,10 @@ label {
   font-size: 13px;
   color: #808080;
 }
+.footer-social-rights a {
+  color: #808080 !important;
+  text-decoration: none !important;
+}
 .footer-social-follow {
   margin-top: 3rem;
   font-family: "Avenir LT Std Roman";
@@ -1108,9 +1112,39 @@ label {
 }
 .footer-info-list-item a {
   text-decoration: none;
-  color: #f0f0f1;
+  color: #f0f0f1 !important;
   font-family: "Avenir LT Std Medium";
   font-size: 16px;
+}
+
+.emma-btn-light,
+.emma-btn-dark {
+  color: #fff !important;
+  text-decoration: none !important;
+  outline: none;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  font-family: "Avenir LT Std Roman";
+  padding: 8px 21px;
+}
+.emma-btn-light.large,
+.emma-btn-dark.large {
+  padding: 8px 40px;
+}
+.emma-btn-light {
+  background-color: #F7C42A;
+}
+.emma-btn-dark {
+  background-color: #F7C42A;
+}
+.emma-btn-dark:hover,
+.emma-btn-dark:active,
+.emma-btn-dark:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
 }
 
 @media (max-width: 1200px) and (min-width: 992px) {

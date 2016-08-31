@@ -23,14 +23,14 @@
       <p class="footer-join-second">
         Envía tu solicitud para ser una <i>Emma</i>
       </p>
-      <a href="{% url 'landing:join' %}" class="emma-btn emma-btn-light footer-btn">
+      <a href="#" class="emma-btn emma-btn-light footer-btn">
         Únete al equipo
       </a>
     </div>
     <div class="col-xs-10 col-md-4 col-sm-3 text-center
                 vertical-middle footer-col">
       <figure class="footer-social-logo">
-        <img src="{% static 'img/icons/full_logo_bw.svg' %}" alt="emma"/>
+        <img src="<?php echo get_template_directory_uri() . '/img/icons/full_logo_bw.svg' ?>" alt="emma"/>
       </figure>
       <p class="footer-social-copyright">
         © 2016 Emma
@@ -38,11 +38,16 @@
       <p class="footer-social-rights">
         Todos los derechos reservados
       </p>
+      <p class="footer-social-rights">
+        <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'shoreditch' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'shoreditch' ), 'WordPress' ); ?></a>
+        <span class="sep">/</span>
+        <?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'shoreditch' ), 'Shoreditch', '<a href="https://wordpress.com/themes/" rel="designer">Automattic</a>' ); ?>
+      </p>
       <p class="footer-social-follow">
         Síguenos en:
       </p>
       <figure class="footer-social-img">
-        <img src="{% static 'img/icons/social.svg' %}" alt="redes sociales"/>
+        <img src="<?php echo get_template_directory_uri() . 'img/icons/social.svg' ?>" alt="redes sociales"/>
         <a id="facebook" href="https://www.facebook.com/miemma.mexico/?fref=ts" target="_blank"></a>
         <a href="https://twitter.com/miemma_" id="twitter" target="_blank"></a>
       </figure>
@@ -59,7 +64,7 @@
     <div class="col-xs-10 col-md-3-half col-sm-3 vertical-middle
                 footer-info footer-col">
       <p class="footer-info-phone center">
-        <img src="{% static 'img/icons/phone.svg' %}" height="27px"
+        <img src="<?php echo get_template_directory_uri() . 'img/icons/phone.svg' ?> %}" height="27px"
              style="margin-top: -5px;" alt="telefono">
         +52 1 55 4544 9350
       </p>
@@ -67,11 +72,6 @@
         Horarios de atención: de lunes a viernes de 9:00 a 20:00 hrs.
       </p>
       <ul class="footer-info-list">
-        <li class="footer-info-list-item center">
-          <a href="#" data-toggle="modal" data-target="#contactModal">
-             Contacto
-           </a>
-        </li>
         <li class="footer-info-list-item center">
           <a href="{% url 'landing:who' %}">Quiénes somos</a>
         </li>
@@ -84,11 +84,6 @@
       </ul>
     </div>
   </div>
-  <div class="site-info">
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'shoreditch' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'shoreditch' ), 'WordPress' ); ?></a>
-				<span class="sep">/</span>
-				<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'shoreditch' ), 'Shoreditch', '<a href="https://wordpress.com/themes/" rel="designer">Automattic</a>' ); ?>
-			</div>
 </footer>
 </div><!-- #page -->
 
