@@ -14,7 +14,7 @@
 	</div><!-- #content -->
 	
 	<footer class="site-footer">
-  <div class="row text-center" style="padding-bottom: 40px; padding-top: 30px;">
+  <div class="row text-center">
     <div class="col-xs-10 col-md-3-half col-sm-3 vertical-middle
                 footer-join footer-col">
       <p class="footer-join-principal">
