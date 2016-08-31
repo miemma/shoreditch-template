@@ -76,6 +76,19 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Avenir LT Std Roman';
+	src: url('fonts/hinted-AvenirLTStd-Roman.eot');
+	src: local('Avenir LT Std 55 Roman'), local('AvenirLTStd-Roman'),
+		url('fonts/hinted-AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+		url('fonts/hinted-AvenirLTStd-Roman.woff2') format('woff2'),
+		url('fonts/hinted-AvenirLTStd-Roman.woff') format('woff'),
+		url('fonts/hinted-AvenirLTStd-Roman.ttf') format('truetype'),
+		url('fonts/hinted-AvenirLTStd-Roman.svg#AvenirLTStd-Roman') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
