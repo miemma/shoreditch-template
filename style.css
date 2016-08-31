@@ -61,6 +61,21 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
 	## x >= 1020px
 --------------------------------------------------------------*/
 
+/* FONTS */
+
+@font-face {
+	font-family: 'Avenir LT Std Medium';
+	src: url('fonts/hinted-AvenirLTStd-Medium.eot');
+	src: local('Avenir LT Std 65 Medium'), local('AvenirLTStd-Medium'),
+		url('fonts/hinted-AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+		url('fonts/hinted-AvenirLTStd-Medium.woff2') format('woff2'),
+		url('fonts/hinted-AvenirLTStd-Medium.woff') format('woff'),
+		url('fonts/hinted-AvenirLTStd-Medium.ttf') format('truetype'),
+		url('fonts/hinted-AvenirLTStd-Medium.svg#AvenirLTStd-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -71,6 +86,7 @@ html {
 }
 
 body {
+	font-family: 'Avenir LT Std Medium';
 	margin: 0;
 }
 
@@ -289,7 +305,6 @@ input,
 select,
 textarea {
 	color: #7a7c84;
-	font-family: Lato, sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -320,7 +335,6 @@ h6,
 .site-title {
 	clear: both;
 	color: #2c313f;
-	font-family: Poppins, sans-serif;
 	font-weight: bold;
 	margin: 0 0 1.5rem;
 }
@@ -1307,7 +1321,6 @@ a:hover {
 }
 
 .post-navigation .post-title {
-	font-family: Poppins, sans-serif;
 	font-size: 25px;
 	font-size: 1.5625rem;
 	font-weight: bold;
@@ -1774,7 +1787,6 @@ a:hover {
 
 .author-title {
 	color: #7a7c84;
-	font-family: Lato, sans-serif;
 	font-size: 13px;
     font-size: 0.8125rem;
     font-weight: normal;
@@ -2115,7 +2127,6 @@ a:hover {
 
 .comment-reply-title small {
 	display: block;
-	font-family: Lato, sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
 	font-weight: normal;
@@ -2125,7 +2136,6 @@ a:hover {
 /* No Comments */
 .no-comments {
 	color: #2c313f;
-	font-family: Poppins, sans-serif;
 	font-size: 32px;
 	font-size: 2rem;
 	font-weight: bold;
