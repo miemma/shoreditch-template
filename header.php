@@ -24,36 +24,43 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'shoreditch' ); ?></a>
-
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-header-wrapper">
-			<div class="site-branding">
-				<?php shoreditch_the_custom_logo(); ?>
-
-				<?php if ( is_front_page() && is_home() ) : ?>
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php else : ?>
-					<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php endif; ?>
-				<p class="site-description"><?php bloginfo( 'description' ); ?></p>
-			</div><!-- .site-branding -->
-
-			<?php if ( has_nav_menu( 'primary' ) ) : ?>
-				<button id="menu-toggle" class="menu-toggle"><?php esc_html_e( 'Menu', 'shoreditch' ); ?></button>
-				<div id="site-menu" class="site-menu">
-					<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_html_e( 'Primary Menu', 'shoreditch' ); ?>">
-						<?php
-						wp_nav_menu( array(
-							'theme_location' => 'primary',
-							'menu_class'     => 'primary-menu',
-						 ) );
-						?>
-					</nav><!-- .main-navigation -->
-				</div><!-- .site-menu -->
-			<?php endif; ?>
-		</div><!-- .site-header-wrapper -->
-	</header><!-- #masthead -->
-
+	<header class="header-navbar">
+	  <input type="checkbox" id="navbar-trigger" />
+	  <label class="fa fa-bars" for="navbar-trigger"></label>
+	  <a href="http://miemma.com">
+	    <img class="header-navbar-logo" src="<?php echo get_template_directory_uri() . '/img/icons/logo_2.png' ?>"/>
+	  </a>
+	  <ul class="header-navbar-list">
+	    <li class="header-navbar-list-item" hcolor="white">
+		    <a class="header-navbar-list-item-link" href="{% url 'landing:faq' %}">
+	        Cómo funciona
+	      </a>
+	    </li>
+	    <li class="header-navbar-list-item" hcolor="white">
+		    <a class="header-navbar-list-item-link" href="{% url 'landing:services' %}">
+	        Servicios
+	      </a>
+	    </li>
+	    <li class="header-navbar-list-item" hcolor="white">
+		    <a class="header-navbar-list-item-link" href="{% url 'landing:about' %}">
+	        Acerca de Emma
+	      </a>
+	    </li>
+	    <li class="header-navbar-list-item" hcolor="white">
+		    <a class="header-navbar-list-item-link" href="{% url 'xauth:login' %}">
+	        Inicia sesión
+	      </a>
+	    </li>
+	    <li class="header-navbar-list-item phone">
+	      <div class="phone-content">
+		      <i class="fa fa-phone"></i>
+	        <span>
+	          +52 1 55 4544 9350
+	        </span>
+	      </div>
+	    </li>
+	  </ul>
+	</header>
 	<div id="content" class="site-content">
 		<?php if ( get_header_image() ) : ?>
 			<div class="header-image">
