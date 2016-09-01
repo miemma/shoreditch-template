@@ -33,8 +33,8 @@ get_header(); ?>
 				}
 
 				the_post_navigation( array(
-					'next_text' => '<span class="meta-nav" aria-hidden="true">' . esc_html__( 'Next', 'shoreditch' ) . '</span> ' . '<span class="screen-reader-text">' . esc_html__( 'Next post:', 'shoreditch' ) . '</span> ' . '<span class="post-title">%title</span>',
-					'prev_text' => '<span class="meta-nav" aria-hidden="true">' . esc_html__( 'Previous', 'shoreditch' ) . '</span> ' . '<span class="screen-reader-text">' . esc_html__( 'Previous post:', 'shoreditch' ) . '</span> ' . '<span class="post-title">%title</span>',
+					'next_text' => '<span class="meta-nav" aria-hidden="true">' . esc_html__( 'Siguiente', 'shoreditch' ) . '</span> ' . '<span class="screen-reader-text">' . esc_html__( 'Siguiente publicación:', 'shoreditch' ) . '</span> ' . '<span class="post-title">%title</span>',
+					'prev_text' => '<span class="meta-nav" aria-hidden="true">' . esc_html__( 'Anterior', 'shoreditch' ) . '</span> ' . '<span class="screen-reader-text">' . esc_html__( 'Publicación anterior:', 'shoreditch' ) . '</span> ' . '<span class="post-title">%title</span>',
 				) );
 
 			endwhile; // End of the loop.
