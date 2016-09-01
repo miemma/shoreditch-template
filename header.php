@@ -31,27 +31,27 @@
 	<header class="header-navbar">
 	  <input type="checkbox" id="navbar-trigger" />
 	  <label class="fa fa-bars" for="navbar-trigger"></label>
-	  <a href="http://miemma.com">
+	  <a href="http://blog.miemma.com">
 	    <img class="header-navbar-logo" src="<?php echo get_template_directory_uri() . '/img/icons/logo_2.png' ?>"/>
 	  </a>
 	  <ul class="header-navbar-list">
 	    <li class="header-navbar-list-item" hcolor="white">
-		    <a class="header-navbar-list-item-link" href="{% url 'landing:faq' %}">
+		    <a class="header-navbar-list-item-link" href="https://miemma.com/faq/">
 	        Cómo funciona
 	      </a>
 	    </li>
 	    <li class="header-navbar-list-item" hcolor="white">
-		    <a class="header-navbar-list-item-link" href="{% url 'landing:services' %}">
+		    <a class="header-navbar-list-item-link" href="https://miemma.com/servicios/">
 	        Servicios
 	      </a>
 	    </li>
 	    <li class="header-navbar-list-item" hcolor="white">
-		    <a class="header-navbar-list-item-link" href="{% url 'landing:about' %}">
+		    <a class="header-navbar-list-item-link" href="https://miemma.com/acerca/">
 	        Acerca de Emma
 	      </a>
 	    </li>
 	    <li class="header-navbar-list-item" hcolor="white">
-		    <a class="header-navbar-list-item-link" href="{% url 'xauth:login' %}">
+		    <a class="header-navbar-list-item-link" href="https://miemma.com/login/">
 	        Inicia sesión
 	      </a>
 	    </li>

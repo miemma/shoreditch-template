@@ -23,7 +23,7 @@
       <p class="footer-join-second">
         Envía tu solicitud para ser una <i>Emma</i>
       </p>
-      <a href="#" class="emma-btn emma-btn-light footer-btn">
+      <a href="https://miemma.com/unete/" class="emma-btn emma-btn-light footer-btn">
         Únete al equipo
       </a>
     </div>
@@ -72,13 +72,13 @@
       </p>
       <ul class="footer-info-list">
         <li class="footer-info-list-item center">
-          <a href="{% url 'landing:who' %}">Quiénes somos</a>
+          <a href="https://miemma.com/quienes-somos/">Quiénes somos</a>
         </li>
         <li class="footer-info-list-item center">
           <a href="https://medium.com/@miemma">Blog e historias</a>
         </li>
         <li class="footer-info-list-item center">
-          <a href="{% url 'landing:faq' %}">Preguntas frecuentes</a>
+          <a href="https://miemma.com/faq/">Preguntas frecuentes</a>
         </li>
       </ul>
     </div>
