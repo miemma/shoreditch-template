@@ -1,0 +1,72 @@
+.header-navbar {
+  background: rgba(255,255,255,0.8);
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+}
+.header-navbar-pay {
+  font-size: 22px;
+  color: #fff;
+}
+.header-navbar-white {
+  background-color: #fff;
+}
+.header-navbar-logo {
+  height: 48px;
+  margin-left: 40px;
+  padding: 5px 20px 5px 0px;
+  border-right: 2px solid $gray;
+  vertical-align: middle;
+}
+.header-navbar-list {
+  display: inline-block;
+  height: $header_height;
+  list-style: none;
+  padding: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.header-navbar-list-item {
+  display: inline-block;
+  margin: 0 auto;
+  font-family: "Avenir LT Std Heavy";
+  font-size: 21px;
+  height: 100%;
+  line-height: $header_height;
+  vertical-align: middle;
+}
+.header-navbar-list-item-white {
+  background-color: #fff;
+}
+.header-navbar-list-item:first-child {
+  display: inline-block !important;
+}
+.header-navbar-list-item:last-child {
+  display: inline-block !important;
+  float: right;
+  margin: 0;
+  width: 238px;
+  padding: 0 0.6em;
+}
+.header-navbar-list-item-link {
+  color: $dark_gray;
+}
+.header-navbar-list-item-link-active {
+  color: $yellow !important;
+}
+.header-navbar-list-item-link:hover {
+  color: $yellow !important;
+}
+.header-navbar-list-item-link:active {
+  color: $dark_gray !important;
+}
+#navbar-trigger {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
