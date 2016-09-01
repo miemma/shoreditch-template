@@ -89,6 +89,19 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Avenir LT Std Heavy';
+	src: url('fonts/hinted-AvenirLTStd-Heavy.eot');
+	src: local('Avenir LT Std 85 Heavy'), local('AvenirLTStd-Heavy'),
+		url('fonts/hinted-AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('fonts/hinted-AvenirLTStd-Heavy.woff2') format('woff2'),
+		url('fonts/hinted-AvenirLTStd-Heavy.woff') format('woff'),
+		url('fonts/hinted-AvenirLTStd-Heavy.ttf') format('truetype'),
+		url('fonts/hinted-AvenirLTStd-Heavy.svg#AvenirLTStd-Heavy') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -1441,6 +1454,10 @@ a:hover {
 	top: 5px;
 	width: auto;
 	z-index: 100000;
+}
+
+#content {
+	margin-top: 60px;
 }
 
 #content[tabindex="-1"]:focus {
