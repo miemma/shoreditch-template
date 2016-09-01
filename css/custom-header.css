@@ -106,7 +106,7 @@ label[for="navbar-trigger"] {
     font-size: 30px;
     position: absolute;
     right: 15px;
-    top: 20px;
+    top: 18px;
     z-index: 3;
   }
   .header-navbar {
@@ -137,6 +137,7 @@ label[for="navbar-trigger"] {
   }
   #navbar-trigger:checked ~ ul {
     height: auto;
+    margin-left: 0;
   }
   #navbar-trigger:checked ~ ul li {
     height: 50px;
