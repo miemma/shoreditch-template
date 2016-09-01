@@ -2,7 +2,7 @@ label[for="navbar-trigger"] {
   display: none;
 }
 .phone {
-  background: $yellow !important;
+  background: #F7C42A !important;
   height: 100%;
   vertical-align: middle;
   color: #fff !important;
@@ -48,6 +48,7 @@ label[for="navbar-trigger"] {
   padding: 0;
   left: 0;
   right: 0;
+  margin: 0 0 0 50px;
   width: 100%;
   text-align: center;
   display: flex;
