@@ -20,7 +20,7 @@ label[for="navbar-trigger"] {
   margin-right: 5px;
 }
 .header-navbar {
-  background: rgba(255,255,255,0.8);
+  background: white;
   position: fixed;
   width: 100%;
   z-index: 4;
@@ -48,7 +48,7 @@ label[for="navbar-trigger"] {
   padding: 0;
   left: 0;
   right: 0;
-  margin: 0 0 0 50px;
+  margin: 0 0 0 40px;
   width: 100%;
   text-align: center;
   display: flex;

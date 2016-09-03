@@ -67,6 +67,9 @@
       </p>
       <ul class="footer-info-list">
         <li class="footer-info-list-item center">
+          <a href="https://miemma.com/quienes-somos/">Contacto</a>
+        </li>
+        <li class="footer-info-list-item center">
           <a href="https://miemma.com/quienes-somos/">Quiénes somos</a>
         </li>
         <li class="footer-info-list-item center">

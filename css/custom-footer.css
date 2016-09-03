@@ -102,7 +102,7 @@ p.footer-social-follow {
   display: inline-block;
   width: 45%;
   font-family: "Avenir LT Std Medium";
-  font-size: 14px;
+  font-size: 15px;
   color: #808080;
 }
 .footer-social-terms p a {
@@ -132,6 +132,9 @@ p.footer-info-text {
   text-align: left;
   margin-top: 1rem;
   padding: 0;
+}
+.footer-info-list li {
+  line-height: 1.2;
 }
 .footer-info-list-item a {
   text-decoration: none;
@@ -199,4 +202,62 @@ p.footer-info-text {
   }
 }
 
-@media (max-width: 1200px) and (min-width: 992px)
+@media screen and (max-width: 768px) {
+  .footer-join {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 40px;
+  }
+
+  p.footer-join-principal {
+    text-align: center;
+    width: 100%;
+  }
+
+  p.footer-join-second {
+    text-align: center;
+  }
+
+  .footer-btn {
+    margin: 1rem auto;
+  }
+
+  .footer-info {
+    padding: 0;
+  }
+
+  p.footer-info-phone,
+  p.footer-info-text {
+    text-align: center;
+  }
+
+  p.footer-info-phone {
+    margin-top: 70px;
+  }
+
+  p.footer-info-text {
+    margin-bottom: 8px;
+  }
+
+  .footer-info-list {
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer-info-list-item {
+    text-align: center;
+    margin-top: 1em;
+    display: inline-block;
+    width: 47%;
+    vertical-align: middle;
+  }
+
+  .footer-social-terms {
+    margin-top: 20px;
+  }
+
+  .footer-social-terms p {
+    margin: 0 1em;
+    width: 30%;
+  }
+}
