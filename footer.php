@@ -38,11 +38,6 @@
       <p class="footer-social-rights">
         Todos los derechos reservados
       </p>
-      <p class="footer-social-rights">
-        <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'shoreditch' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'shoreditch' ), 'WordPress' ); ?></a>
-        <span class="sep">/</span>
-        <?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'shoreditch' ), 'Shoreditch', '<a href="https://wordpress.com/themes/" rel="designer">Automattic</a>' ); ?>
-      </p>
       <p class="footer-social-follow">
         Síguenos en:
       </p>
@@ -73,9 +68,6 @@
       <ul class="footer-info-list">
         <li class="footer-info-list-item center">
           <a href="https://miemma.com/quienes-somos/">Quiénes somos</a>
-        </li>
-        <li class="footer-info-list-item center">
-          <a href="https://medium.com/@miemma">Blog e historias</a>
         </li>
         <li class="footer-info-list-item center">
           <a href="https://miemma.com/faq/">Preguntas frecuentes</a>

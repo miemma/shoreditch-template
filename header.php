@@ -31,7 +31,7 @@
 	<header class="header-navbar">
 	  <input type="checkbox" id="navbar-trigger" />
 	  <label class="fa fa-bars" for="navbar-trigger"></label>
-	  <a href="http://blog.miemma.com">
+	  <a href="https://miemma.com">
 	    <img class="header-navbar-logo" src="<?php echo get_template_directory_uri() . '/img/icons/logo_2.png' ?>"/>
 	  </a>
 	  <ul class="header-navbar-list">
@@ -48,6 +48,11 @@
 	    <li class="header-navbar-list-item" hcolor="white">
 		    <a class="header-navbar-list-item-link" href="https://miemma.com/acerca/">
 	        Acerca de Emma
+	      </a>
+	    </li>
+	    <li class="header-navbar-list-item" hcolor="white">
+		    <a class="header-navbar-list-item-link" href="http://blog.miemma.com/">
+	        Blog
 	      </a>
 	    </li>
 	    <li class="header-navbar-list-item" hcolor="white">
