@@ -12,7 +12,7 @@
 ?>
 
 	</div><!-- #content -->
-	
+
 	<footer class="site-footer">
   <div class="row text-center">
     <div class="col-xs-10 col-md-3-half col-sm-3 vertical-middle
@@ -66,9 +66,6 @@
         Horarios de atención: de lunes a viernes de 9:00 a 20:00 hrs.
       </p>
       <ul class="footer-info-list">
-        <li class="footer-info-list-item center">
-          <a href="https://miemma.com/quienes-somos/">Contacto</a>
-        </li>
         <li class="footer-info-list-item center">
           <a href="https://miemma.com/quienes-somos/">Quiénes somos</a>
         </li>
