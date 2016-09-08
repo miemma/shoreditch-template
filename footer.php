@@ -81,5 +81,10 @@
 <?php wp_footer(); ?>
 <script src="<?php echo get_template_directory_uri() . '/lib/js/jquery.min.js' ?>"></script>
 <script src="<?php echo get_template_directory_uri() . '/js/menu.js' ?>"></script>
+<script>
+  if ($('.type-post.has-post-thumbnail').length) {
+    $('.type-post').removeClass('has-post-thumbnail');
+  }
+</script>
 </body>
 </html>
