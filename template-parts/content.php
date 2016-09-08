@@ -11,19 +11,17 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="hentry-wrapper">
-		<?php if ( ! is_single() || ! has_post_thumbnail() ) : ?>
-			<header class="entry-header">
-				<div class="entry-header-wrapper">
-					<?php
-					if ( is_single() ) {
-						the_title( '<h1 class="entry-title">', '</h1>' );
-					} else {
-						the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-					}
-					?>
-				</div><!-- .entry-header-wrapper -->
-			</header><!-- .entry-header -->
-		<?php endif; ?>
+		<header class="entry-header">
+			<div class="entry-header-wrapper">
+				<?php
+				if ( is_single() ) {
+					the_title( '<h1 class="entry-title">', '</h1>' );
+				} else {
+					the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+				}
+				?>
+			</div><!-- .entry-header-wrapper -->
+		</header><!-- .entry-header -->
 
 		<div class="entry-content">
 			<?php
