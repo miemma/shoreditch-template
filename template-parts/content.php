@@ -32,12 +32,12 @@
 					the_title( '<span class="screen-reader-text">"', '"</span>', false )
 				) );
 			} else {
+				the_post_thumbnail(['500px', '300px']);
 				the_excerpt( sprintf(
 				/* translators: %s: Name of current post. */
 					wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'shoreditch' ), array( 'span' => array( 'class' => array() ) ) ),
 					the_title( '<span class="screen-reader-text">"', '"</span>', false )
 				) );
-				the_post_thumbnail();
 			}
 			wp_link_pages( array(
 				'before'      => '<div class="page-links"><span class="page-links-title">' . esc_html__( 'Pages:', 'shoreditch' ) . '</span>',
