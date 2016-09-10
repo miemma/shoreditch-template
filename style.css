@@ -3507,6 +3507,10 @@ div#jp-relatedposts a:focus {
 	margin: -10px 0 20px 0;
 }
 
+.type-post.has-post-thumbnail .entry-title {
+	color: white;
+}
+
 /*--------------------------------------------------------------
 # Responsive
 --------------------------------------------------------------*/
