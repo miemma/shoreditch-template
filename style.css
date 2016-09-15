@@ -3511,6 +3511,20 @@ div#jp-relatedposts a:focus {
 	color: white;
 }
 
+.read-more,
+.read-more:hover,
+.read-more:active,
+.read-more:focus {
+	box-shadow: none !important;
+	color: #F7C42A;
+	text-decoration: none;
+}
+
+.read-more::before {
+	display: block;
+	content: ' ';
+}
+
 /*--------------------------------------------------------------
 # Responsive
 --------------------------------------------------------------*/
