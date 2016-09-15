@@ -3550,6 +3550,12 @@ div#jp-relatedposts a:focus {
 	width: 5rem;
 }
 
+.entry-hero {
+	min-height: calc( (1/3) * 100vw ) !important;
+	height: 40vh;
+	max-height: calc( (0.8) * 100vw ) !important;
+}
+
 /*--------------------------------------------------------------
 # Responsive
 --------------------------------------------------------------*/
