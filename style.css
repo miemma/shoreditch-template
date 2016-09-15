@@ -3525,6 +3525,31 @@ div#jp-relatedposts a:focus {
 	content: ' ';
 }
 
+.hentry .entry-title {
+	font-size: 2.7rem;
+}
+
+.entry-hero + div .entry-content {
+	font-size: 1rem;
+}
+
+#reply-title {
+	font-size: 2rem;
+}
+
+.author-heading .author-title {
+	font-size: 0.8rem;
+}
+
+.author-heading .author-name {
+	font-size: 1.7rem;
+}
+
+.author-avatar img {
+	height: 5rem;
+	width: 5rem;
+}
+
 /*--------------------------------------------------------------
 # Responsive
 --------------------------------------------------------------*/
