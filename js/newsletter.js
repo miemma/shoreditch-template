@@ -14,7 +14,7 @@ $(function() {
           return false;
         }
       },
-      success: function () {
+      success: function (data) {
         if (data.status === 'subscribed') {
           $('#newsletter-label').text('Suscripción realizada con éxito');
         } else {
