@@ -3556,6 +3556,17 @@ div#jp-relatedposts a:focus {
 	max-height: calc( (0.8) * 100vw ) !important;
 }
 
+#newsletter-button {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px 25px;
+}
+
+#newsletter-button.disabled {
+	background: #E0AD35;
+	pointer-events: none;
+}
+
 /*--------------------------------------------------------------
 # Responsive
 --------------------------------------------------------------*/
