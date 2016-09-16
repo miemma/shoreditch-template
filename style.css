@@ -3563,10 +3563,19 @@ div#jp-relatedposts a:focus {
 	white-space: initial;
 }
 
+.entry-header[style] {
+	min-height: 160px !important;
+}
+
 .entry-hero {
 	min-height: calc( (1/3) * 100vw ) !important;
-	height: 40vh;
-	max-height: calc( (0.8) * 100vw ) !important;
+	height: auto;
+	max-height: 65vh;
+}
+
+.entry-hero-wrapper {
+	padding-bottom: 2em;
+	padding-top: 2em;
 }
 
 #newsletter-button {
