@@ -3529,11 +3529,12 @@ div#jp-relatedposts a:focus {
 	font-size: 2.7rem;
 }
 
-.entry-hero + div .entry-content {
+.entry-hero + div .entry-content,
+.entry-hero + div .comment-content {
 	font-size: 1rem;
 }
 
-#reply-title {
+#reply-title, .comments-title {
 	font-size: 2rem;
 }
 
