@@ -1,7 +1,7 @@
 $(function() {
   $('#newsletter-button').click(function (e) {
     $.ajax({
-      method: 'POST',
+      type: 'POST',
       url: 'https://miemma.com/subscribe', 
       data: $('#newsletter-form').serialize(),
       beforeSend: function () {
