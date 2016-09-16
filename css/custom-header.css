@@ -127,20 +127,24 @@ label[for="navbar-trigger"] {
   .header-navbar-list-item {
     background: #fff;
     display: block !important;
+    font-size: 18px;
     height: 0;
-    line-height: 50px;
+    line-height: 38px;
     overflow: hidden;
     width: 100% !important;
   }
   .header-navbar-list .phone {
     background: $yellow;
   }
+  .header-navbar-list .phone i{
+    font-size: 28px;
+  }
   #navbar-trigger:checked ~ ul {
     height: auto;
     margin-left: 0;
   }
   #navbar-trigger:checked ~ ul li {
-    height: 50px;
+    height: 38px;
     margin-top: -1px;
   }
   #navbar-trigger:checked + label {

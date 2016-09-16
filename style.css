@@ -3534,6 +3534,10 @@ div#jp-relatedposts a:focus {
 	font-size: 1rem;
 }
 
+.entry-content img {
+	width: 99.3%;
+}
+
 #reply-title, .comments-title {
 	font-size: 2rem;
 }
@@ -3571,6 +3575,10 @@ div#jp-relatedposts a:focus {
 #newsletter-label {
 	display: block;
 	margin-top: 10px;
+}
+
+aside.widget-area {
+	margin-bottom: 70px;
 }
 
 /*--------------------------------------------------------------
