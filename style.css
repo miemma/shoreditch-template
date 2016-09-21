@@ -3578,6 +3578,16 @@ div#jp-relatedposts a:focus {
 	padding-top: 2em;
 }
 
+.newsletter-container {
+	border: 1px solid #f3f3f3;
+	padding: 25px;
+	margin-bottom: 25px;
+}
+
+.newsletter-container form {
+	margin-top: 15px;
+}
+
 #newsletter-button {
 	display: inline-block;
 	margin-top: 10px;
@@ -3592,6 +3602,20 @@ div#jp-relatedposts a:focus {
 #newsletter-label {
 	display: block;
 	margin-top: 10px;
+}
+
+.sidebar-social-media ul {
+	margin-left: 0;
+	list-style: none;
+}
+
+.sidebar-social-media ul li {
+	border-bottom: 1px solid #f3f3f3;
+	padding: 12px 0;
+}
+
+.sidebar-social-media ul li:first-child {
+	border-top: 1px solid #f3f3f3;
 }
 
 aside.widget-area {
