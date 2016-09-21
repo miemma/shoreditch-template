@@ -82,5 +82,13 @@
 <script src="<?php echo get_template_directory_uri() . '/lib/js/jquery.min.js' ?>"></script>
 <script src="<?php echo get_template_directory_uri() . '/js/menu.js' ?>"></script>
 <script src="<?php echo get_template_directory_uri() . '/js/newsletter.js' ?>"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
