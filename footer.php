@@ -60,7 +60,7 @@
                 footer-info footer-col">
       <p class="footer-info-phone center">
         <img src="<?php echo get_template_directory_uri() . '/img/icons/phone.svg' ?>" style="height:27px !important; margin-top: -5px;" alt="telefono"/>
-        +52 1 55 4544 9350
+        +52 1 55 2962 7151
       </p>
       <p class="footer-info-text">
         Horarios de atención: de lunes a viernes de 9:00 a 20:00 hrs.

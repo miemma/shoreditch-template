@@ -64,7 +64,7 @@
 	      <div class="phone-content">
 		      <i class="fa fa-phone"></i>
 	        <span>
-	          +52 1 55 4544 9350
+	          +52 1 55 2962 7151
 	        </span>
 	      </div>
 	    </li>
