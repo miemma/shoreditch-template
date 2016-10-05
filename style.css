@@ -3551,12 +3551,12 @@ div#jp-relatedposts a:focus {
 }
 
 .author-avatar img {
-	height: 5rem;
-	width: 5rem;
+	height: 7rem;
+	width: 7rem;
 }
 
 .author-bio {
-	margin-top: 95px;
+	margin-top: 120px;
 }
 
 .author-link {
