@@ -41,8 +41,8 @@
 	      </a>
 	    </li>
 	    <li class="header-navbar-list-item" hcolor="white">
-		    <a class="header-navbar-list-item-link" href="https://miemma.com/servicios/">
-	        Servicios
+		    <a class="header-navbar-list-item-link" href="https://miemma.com/precios/">
+	        Precios
 	      </a>
 	    </li>
 	    <li class="header-navbar-list-item" hcolor="white">
