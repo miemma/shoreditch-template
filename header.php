@@ -47,7 +47,7 @@
 	    </li>
 	    <li class="header-navbar-list-item" hcolor="white">
 		    <a class="header-navbar-list-item-link" href="https://miemma.com/acerca/">
-	        Acerca de Emma
+	        Acerca de nosotros
 	      </a>
 	    </li>
 	    <li class="header-navbar-list-item" hcolor="white">
